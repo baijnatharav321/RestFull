@@ -1,0 +1,16 @@
+com\rest\jersey\model\Employee.class
+com\rest\jersey\service\EmployeeService.class
+com\jersey\ExceptionMapper\BadRequestExceptionMapper.class
+com\jersey\serviceimpl\EmployeeServiceImpl.class
+com\jersey\repository\EmployeeRepository.class
+com\jersey\ExceptionMapper\EmployeeNotFoundExceptonMapper.class
+com\rest\exception\BadRequestExceptionClass.class
+com\rest\exception\InternalServerErrorClass.class
+com\jersey\ExceptionMapper\InternalServerErrorMapper.class
+com\jersey\response\CustomError.class
+com\jersey\App.class
+com\rest\controller\EmployeeTestController.class
+com\rest\client\EmployeeTestClient.class
+com\rest\exception\EmployeeNotFoundExceptionClass.class
+com\jersey\resource\JerseyConfig.class
+com\rest\builder\EmployeeTestBuilder.class

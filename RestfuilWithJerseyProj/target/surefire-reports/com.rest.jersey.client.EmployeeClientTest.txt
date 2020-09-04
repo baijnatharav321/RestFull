@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.rest.jersey.client.EmployeeClientTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 10.142 sec <<< FAILURE! - in com.rest.jersey.client.EmployeeClientTest
+testAdd(com.rest.jersey.client.EmployeeClientTest)  Time elapsed: 3.753 sec  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.testAdd(EmployeeClientTest.java:46)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.testAdd(EmployeeClientTest.java:46)
+
+getEmp(com.rest.jersey.client.EmployeeClientTest)  Time elapsed: 2.072 sec  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.getEmp(EmployeeClientTest.java:15)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.getEmp(EmployeeClientTest.java:15)
+
+getAllEmp(com.rest.jersey.client.EmployeeClientTest)  Time elapsed: 2.064 sec  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.getAllEmp(EmployeeClientTest.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.getAllEmp(EmployeeClientTest.java:22)
+
+testDelete(com.rest.jersey.client.EmployeeClientTest)  Time elapsed: 2.073 sec  <<< ERROR!
+javax.ws.rs.ProcessingException: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.testDelete(EmployeeClientTest.java:30)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.rest.jersey.client.EmployeeClientTest.testDelete(EmployeeClientTest.java:30)
+
